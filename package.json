@@ -1,0 +1,32 @@
+{
+  "name": "jet-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.6",
+    "@tanstack/query-sync-storage-persister": "^5.76.1",
+    "@tanstack/react-query": "^5.76.1",
+    "@tanstack/react-query-persist-client": "^5.76.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.6",
+    "vite-tsconfig-paths": "^5.1.4",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
